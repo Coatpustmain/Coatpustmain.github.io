@@ -25,7 +25,7 @@ function calculeaza_prime(start_value)
 		}
 		start_value += 1000;
 	}
-	if(start_value > 1e10)
+	if(start_value < 1e10)
 		setTimeout(calculeaza_prime, 1, start_value);
 	else
 		postMessage("gata");
