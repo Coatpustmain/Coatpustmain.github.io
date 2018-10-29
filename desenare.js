@@ -33,8 +33,8 @@ function start()
 		my_worker = new Worker("calcul_prime.js");
 		my_worker.onmessage = function(e){
 			document.getElementById("id_prime").innerHTML = e.data;
+		 }
 		}
-	{
 	else
 		my_worker.postMessage("start");
 	
