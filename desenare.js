@@ -6,6 +6,7 @@ document.getElementById("id_stop_button").disabled = true;
 document.getElementById("id_start_button").disabled = false;
 
 var unghi_start = {unghi:0}; // in grade
+var my_worker = null;
 // -----------------------------------------
 function deseneaza_cerc(unghi, context, w, h)
 {
@@ -19,7 +20,6 @@ function deseneaza_cerc(unghi, context, w, h)
 	
 	unghi.unghi++;
 }
-	var my_worker == null;
 // -----------------------------------------
 function start()
 {
