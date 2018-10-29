@@ -29,8 +29,7 @@ function calculeaza_prime(start_value)
 		setTimeout(calculeaza_prime, 1, start_value);
 	else
 		postMessage("gata");
-	}
-}		
+	}		
 	
 // -----------------------------------------
 calculeaza_prime(1e9);
