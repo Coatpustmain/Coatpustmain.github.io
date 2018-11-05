@@ -25,7 +25,7 @@ function on_device_orientation(e)
 
 function on_device_motion(e)
 {
-	document.getElementById("id_acc_z").innerHTML = e.accelerationIncludingGravity_z;
-	document.getElementById("id_acc_x").innerHTML = e.accelerationIncludingGravity_x;
-	document.getElementById("id_acc_y").innerHTML = e.accelerationIncludingGravity_y;
+	document.getElementById("id_acc_z").innerHTML = e.accelerationIncludingGravity.z;
+	document.getElementById("id_acc_x").innerHTML = e.accelerationIncludingGravity.x;
+	document.getElementById("id_acc_y").innerHTML = e.accelerationIncludingGravity.y;
 }
